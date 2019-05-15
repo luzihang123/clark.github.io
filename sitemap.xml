@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://tech.luzihang.net/2019/05/07/ArticleTest/</loc>
+    
+    <lastmod>2019-05-15T16:03:23.858Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://tech.luzihang.net/404.html</loc>
     
     <lastmod>2019-05-07T11:58:48.464Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>http://tech.luzihang.net/tags/index.html</loc>
     
     <lastmod>2019-05-07T07:28:23.334Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tech.luzihang.net/2019/05/07/ArticleTest/</loc>
-    
-    <lastmod>2019-05-07T06:23:03.101Z</lastmod>
     
   </url>
   

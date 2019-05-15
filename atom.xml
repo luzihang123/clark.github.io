@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tech.luzihang.net/"/>
-  <updated>2019-05-07T06:23:03.101Z</updated>
+  <updated>2019-05-15T16:03:23.858Z</updated>
   <id>http://tech.luzihang.net/</id>
   
   <author>
@@ -17,13 +17,21 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>ArticleTest</title>
+    <title>00 机器学习概述、特征工程、机器学习算法</title>
     <link href="http://tech.luzihang.net/2019/05/07/ArticleTest/"/>
     <id>http://tech.luzihang.net/2019/05/07/ArticleTest/</id>
     <published>2019-05-07T06:23:03.000Z</published>
-    <updated>2019-05-07T06:23:03.101Z</updated>
+    <updated>2019-05-15T16:03:23.858Z</updated>
     
     <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;引入：&quot;&gt;&lt;a href=&quot;#引入：&quot; class=&quot;headerlink&quot; title=&quot;引入：&quot;&gt;&lt;/a&gt;引入：&lt;/h2&gt;&lt;h3 id=&quot;”人工智能之父“-艾伦图灵：图灵测试&quot;&gt;&lt;a href=&quot;#”人工智能之父“-艾伦图灵：图灵测试&quot;
+        
+      
     
     </summary>
     
