@@ -2,12 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[00 机器学习概述、特征工程、机器学习算法]]></title>
-    <url>%2F2019%2F05%2F07%2FArticleTest%2F</url>
+    <url>%2F2019%2F05%2F07%2F00%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%2F</url>
     <content type="text"><![CDATA[00 机器学习概述、特征工程、机器学习算法引入：”人工智能之父“ 艾伦图灵：图灵测试 马文·李·闵斯基（英语：Marvin Lee Minsky，1927年8月9日－2016年1月24日），科学家专长于认知科学与人工智能领域，麻省理工学院人工智能实验室的创始人之一，著有几部人工智能和哲学方面的作品。1969年，因为在人工智能领域的贡献，获得图灵奖。 关系 新闻一“小”一“同”南方都市报的“小南”，广州日报的“阿同”机器人 技术方面的话，主要是计算机视觉，自然语言处理，数据挖掘。 计算机视觉就包括图像识别，视频识别，具体应用有人脸识别，步态识别，无人驾驶汽车等等。 自然语言处理包括机器翻译，语音识别，文本挖掘等等，像siri，谷歌翻译里面都有很多的自然语言处理技术。 数据挖掘主要是各种推荐和预测，包括电子商务的商品推荐，计算广告，社交网络分析（微博好友推荐等），预测一些趋势，比如股市的走向，天气的变化等。 无人驾驶百度：阿波罗 医疗 医疗CT 量化交易图片艺术化 GAN神经网络：视觉相关处理 Ai智能手机 智能推荐 开发框架pytorch TensorFlow： scikit-learn： 推荐书籍和知识背景 机器学习概述什么是 机器学习机器学习是从数据中自动分析获得规律（模型），并利用规律对未知数据进行预测 案例：分辨啤酒还是红酒 搜集数据： 准备数据 为什么 需要机器学习怎么用 机器学习（应用场景）数据来源与类型数据的特征工程机器学习基础]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F05%2F07%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
 </search>
