@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[02Python中一切皆对象——Python高级编程和异步IO并发编程]]></title>
+    <url>%2F02Python%E4%B8%AD%E4%B8%80%E5%88%87%E7%9A%86%E5%AF%B9%E8%B1%A1%E2%80%94%E2%80%94Python%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E5%92%8C%E5%BC%82%E6%AD%A5IO%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.html</url>
+    <content type="text"><![CDATA[02Python中一切皆对象——Python高级编程和异步IO并发编程2.1 Python中一切皆是对象讲解动态语言和静态语言的区别Python的面向对象更彻底函数和类也是对象，属于Python的一等公民1、赋值给一个变量2、可以添加到集合对象中3、可以作为参数传递给函数4、可以当做函数的返回值2.2 type、object和class的关系2.3 Python中的常见内置类型2.4 本章小结]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[01课程介绍——Python高级编程和异步IO并发编程]]></title>
     <url>%2F01%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E2%80%94%E2%80%94Python%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E5%92%8C%E5%BC%82%E6%AD%A5IO%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.html</url>
     <content type="text"><![CDATA[01课程介绍——Python高级编程和异步IO并发编程为什么需要进阶Python高级工程师会面试什么我们只需要知道当前的Python知识就够了吗？语言本身的进阶知识优先于框架，大公司更注重语言本身的功底 如何进阶和大神一起阅读优秀源码、懂原理面试、多做项目 你是否遇到看不懂优秀库和框架的源码不知道如何才能进一步优化自己的代码asyncio、tornado 等异步框架背后的原理Python代码灵活背后的设计原理对生成器稀里糊涂很多Python抛出的异常看不懂 课程概述目标：系统全面学习Python高级知识和并发编程方法：功能-&gt;原理-&gt;应用案例技术：面向对象、魔法方法、元类、生成器、多线程-&gt;协程 章节安排01 课程介绍02 Python中一切皆对象03 魔法方法04 深入类和对象05 自定义序列类06 深入Python的set和dict07 对象引用、可变性和垃圾回收08 元类编程09 迭代器和生成器10 Python socket编程11 多线程、多进程和线程池编程12、协程和异步IO13、asyncio并发编程14、课程总结课程安排一切皆对象魔法方法详解Python序列协议深入dict和set迭代器和生成器详解socket编程详解对象引用和可变性、垃圾回收元类编程多线程（池）、多进程（池）异步io和协程asyncio并发编程课程安排-面向对象鸭子类型抽象基类MRO属性查找算法和super函数静态方法、类方法、实例方法数据封装和私有属性对象的自省机制上下文管理器contextlib实现上下文管理器mixin继承模式的应用课程安排-元类property动态属性getattr、getattribute的区别属性描述符new和init元类实现orm课程安排-多线程GIL和多线程线程通信-共享变量、Queue线程同步-Lock、RLock、Condition、Semaphores线程池和源码分析-ThreadPoolExecutor多进程-multiprocessing进程间通信课程安排-异步IOIO多路复用-select、poll、epollselect+回调+事件循环模式生成器进阶-send、close、throw和yield fromasync和await课程安排-asyncioFuture和Taskaiohttp实现高并发抓取urlasyncio 背后的selector协程同步和通信ThreadPoolExecutor + asyncio]]></content>
