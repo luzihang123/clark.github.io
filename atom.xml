@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tech.luzihang.net/"/>
-  <updated>2019-07-16T04:23:16.340Z</updated>
+  <updated>2019-07-17T04:35:43.876Z</updated>
   <id>http://tech.luzihang.net/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>生产环境CentOs7安装docker记实</title>
+    <link href="http://tech.luzihang.net/%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83CentOs7%E5%AE%89%E8%A3%85docker%E8%AE%B0%E5%AE%9E.html"/>
+    <id>http://tech.luzihang.net/生产环境CentOs7安装docker记实.html</id>
+    <published>2019-07-17T04:35:17.000Z</published>
+    <updated>2019-07-17T04:35:43.876Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;生产环境CentOs7安装docker记实&quot;&gt;&lt;a href=&quot;#生产环境CentOs7安装docker记实&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>把布隆过滤器用起来</title>
