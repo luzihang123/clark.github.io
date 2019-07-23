@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tech.luzihang.net/"/>
-  <updated>2019-07-17T04:35:43.876Z</updated>
+  <updated>2019-07-23T07:55:11.914Z</updated>
   <id>http://tech.luzihang.net/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在Centos7使用supervisor</title>
+    <link href="http://tech.luzihang.net/%E5%9C%A8Centos7%E4%BD%BF%E7%94%A8supervisor.html"/>
+    <id>http://tech.luzihang.net/在Centos7使用supervisor.html</id>
+    <published>2019-07-23T07:48:06.000Z</published>
+    <updated>2019-07-23T07:55:11.914Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;名称解释&quot;&gt;&lt;a href=&quot;#名称解释&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在Centos7安装python3、配置zsh、虚拟环境</title>
+    <link href="http://tech.luzihang.net/%E5%9C%A8Centos7%E5%AE%89%E8%A3%85python3%E3%80%81%E9%85%8D%E7%BD%AEzsh%E3%80%81%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83.html"/>
+    <id>http://tech.luzihang.net/在Centos7安装python3、配置zsh、虚拟环境.html</id>
+    <published>2019-07-23T07:44:21.000Z</published>
+    <updated>2019-07-23T07:47:38.132Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;安装python3&quot;&gt;&lt;a href=&quot;#安装python3&quot; class=&quot;headerlink&quot; title=&quot;安装python3&quot;&gt;&lt;/a&gt;安装python3&lt;/h2&gt;&lt;p&gt;参考：&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>生产环境CentOs7安装docker记实</title>
