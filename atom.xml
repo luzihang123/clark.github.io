@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tech.luzihang.net/"/>
-  <updated>2019-07-23T07:55:11.914Z</updated>
+  <updated>2019-07-26T23:37:37.929Z</updated>
   <id>http://tech.luzihang.net/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://tech.luzihang.net/%E5%9C%A8Centos7%E4%BD%BF%E7%94%A8supervisor.html"/>
     <id>http://tech.luzihang.net/在Centos7使用supervisor.html</id>
     <published>2019-07-23T07:48:06.000Z</published>
-    <updated>2019-07-23T07:55:11.914Z</updated>
+    <updated>2019-07-26T23:37:37.929Z</updated>
     
     <summary type="html">
     
@@ -35,6 +35,8 @@
     
     </summary>
     
+      <category term="「原创分享」" scheme="http://tech.luzihang.net/categories/%E3%80%8C%E5%8E%9F%E5%88%9B%E5%88%86%E4%BA%AB%E3%80%8D/"/>
+    
     
   </entry>
   
@@ -43,7 +45,7 @@
     <link href="http://tech.luzihang.net/%E5%9C%A8Centos7%E5%AE%89%E8%A3%85python3%E3%80%81%E9%85%8D%E7%BD%AEzsh%E3%80%81%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83.html"/>
     <id>http://tech.luzihang.net/在Centos7安装python3、配置zsh、虚拟环境.html</id>
     <published>2019-07-23T07:44:21.000Z</published>
-    <updated>2019-07-23T07:47:38.132Z</updated>
+    <updated>2019-07-26T23:37:37.929Z</updated>
     
     <summary type="html">
     
@@ -57,6 +59,8 @@
     
     </summary>
     
+      <category term="「原创分享」" scheme="http://tech.luzihang.net/categories/%E3%80%8C%E5%8E%9F%E5%88%9B%E5%88%86%E4%BA%AB%E3%80%8D/"/>
+    
     
   </entry>
   
@@ -65,7 +69,7 @@
     <link href="http://tech.luzihang.net/%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83CentOs7%E5%AE%89%E8%A3%85docker%E8%AE%B0%E5%AE%9E.html"/>
     <id>http://tech.luzihang.net/生产环境CentOs7安装docker记实.html</id>
     <published>2019-07-17T04:35:17.000Z</published>
-    <updated>2019-07-17T04:35:43.876Z</updated>
+    <updated>2019-07-26T23:37:23.900Z</updated>
     
     <summary type="html">
     
@@ -79,6 +83,8 @@
     
     </summary>
     
+      <category term="「原创分享」" scheme="http://tech.luzihang.net/categories/%E3%80%8C%E5%8E%9F%E5%88%9B%E5%88%86%E4%BA%AB%E3%80%8D/"/>
+    
     
   </entry>
   
@@ -87,7 +93,7 @@
     <link href="http://tech.luzihang.net/%E6%8A%8A%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8%E7%94%A8%E8%B5%B7%E6%9D%A5.html"/>
     <id>http://tech.luzihang.net/把布隆过滤器用起来.html</id>
     <published>2019-07-10T11:43:43.000Z</published>
-    <updated>2019-07-16T04:23:16.340Z</updated>
+    <updated>2019-07-26T23:37:37.929Z</updated>
     
     <summary type="html">
     
@@ -102,6 +108,8 @@
     
     </summary>
     
+      <category term="「原创分享」" scheme="http://tech.luzihang.net/categories/%E3%80%8C%E5%8E%9F%E5%88%9B%E5%88%86%E4%BA%AB%E3%80%8D/"/>
+    
     
   </entry>
   
@@ -110,7 +118,7 @@
     <link href="http://tech.luzihang.net/02Python%E4%B8%AD%E4%B8%80%E5%88%87%E7%9A%86%E5%AF%B9%E8%B1%A1%E2%80%94%E2%80%94Python%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E5%92%8C%E5%BC%82%E6%AD%A5IO%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.html"/>
     <id>http://tech.luzihang.net/02Python中一切皆对象——Python高级编程和异步IO并发编程.html</id>
     <published>2019-06-10T15:55:38.000Z</published>
-    <updated>2019-06-10T16:01:40.443Z</updated>
+    <updated>2019-07-26T23:37:37.929Z</updated>
     
     <summary type="html">
     
@@ -124,6 +132,8 @@
     
     </summary>
     
+      <category term="「笔记」" scheme="http://tech.luzihang.net/categories/%E3%80%8C%E7%AC%94%E8%AE%B0%E3%80%8D/"/>
+    
     
   </entry>
   
@@ -132,7 +142,7 @@
     <link href="http://tech.luzihang.net/01%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E2%80%94%E2%80%94Python%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E5%92%8C%E5%BC%82%E6%AD%A5IO%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.html"/>
     <id>http://tech.luzihang.net/01课程介绍——Python高级编程和异步IO并发编程.html</id>
     <published>2019-06-10T15:21:08.000Z</published>
-    <updated>2019-06-10T15:43:45.423Z</updated>
+    <updated>2019-07-26T23:37:37.929Z</updated>
     
     <summary type="html">
     
@@ -146,6 +156,8 @@
     
     </summary>
     
+      <category term="「笔记」" scheme="http://tech.luzihang.net/categories/%E3%80%8C%E7%AC%94%E8%AE%B0%E3%80%8D/"/>
+    
     
   </entry>
   
@@ -154,7 +166,7 @@
     <link href="http://tech.luzihang.net/scrapy-spalsh%E4%BD%BF%E7%94%A8UA%E5%92%8CIP%E4%BB%A3%E7%90%86.html"/>
     <id>http://tech.luzihang.net/scrapy-spalsh使用UA和IP代理.html</id>
     <published>2019-05-27T07:53:56.000Z</published>
-    <updated>2019-05-27T07:55:27.165Z</updated>
+    <updated>2019-07-26T23:37:37.929Z</updated>
     
     <summary type="html">
     
@@ -168,6 +180,8 @@
     
     </summary>
     
+      <category term="「原创分享」" scheme="http://tech.luzihang.net/categories/%E3%80%8C%E5%8E%9F%E5%88%9B%E5%88%86%E4%BA%AB%E3%80%8D/"/>
+    
     
   </entry>
   
@@ -176,7 +190,7 @@
     <link href="http://tech.luzihang.net/00%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.html"/>
     <id>http://tech.luzihang.net/00机器学习.html</id>
     <published>2019-05-07T06:23:03.000Z</published>
-    <updated>2019-05-16T15:41:47.702Z</updated>
+    <updated>2019-07-26T23:37:34.137Z</updated>
     
     <summary type="html">
     
@@ -189,6 +203,8 @@
       
     
     </summary>
+    
+      <category term="「笔记」" scheme="http://tech.luzihang.net/categories/%E3%80%8C%E7%AC%94%E8%AE%B0%E3%80%8D/"/>
     
     
   </entry>
