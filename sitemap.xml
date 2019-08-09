@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://tech.luzihang.net/%E5%9C%A8Centos7%E4%BD%BF%E7%94%A8supervisor.html</loc>
+    
+    <lastmod>2019-08-09T08:39:50.714Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://tech.luzihang.net/about/index.html</loc>
     
     <lastmod>2019-07-27T00:09:50.448Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://tech.luzihang.net/tags/index.html</loc>
     
     <lastmod>2019-07-27T00:06:37.706Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tech.luzihang.net/%E5%9C%A8Centos7%E4%BD%BF%E7%94%A8supervisor.html</loc>
-    
-    <lastmod>2019-07-27T00:04:30.617Z</lastmod>
     
   </url>
   
