@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://tech.luzihang.net/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%A2%8E%E7%A2%8E%E5%BF%B5%EF%BC%9A%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%91%A8%E6%8A%A5.html</loc>
+    
+    <lastmod>2019-08-21T09:19:13.404Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://tech.luzihang.net/%E5%9C%A8Centos7%E4%BD%BF%E7%94%A8supervisor.html</loc>
     
     <lastmod>2019-08-09T11:09:53.696Z</lastmod>
@@ -51,7 +58,7 @@
   </url>
   
   <url>
-    <loc>http://tech.luzihang.net/scrapy-spalsh%E4%BD%BF%E7%94%A8UA%E5%92%8CIP%E4%BB%A3%E7%90%86.html</loc>
+    <loc>http://tech.luzihang.net/01%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E2%80%94%E2%80%94Python%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E5%92%8C%E5%BC%82%E6%AD%A5IO%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.html</loc>
     
     <lastmod>2019-07-26T23:37:37.929Z</lastmod>
     
@@ -65,7 +72,7 @@
   </url>
   
   <url>
-    <loc>http://tech.luzihang.net/01%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D%E2%80%94%E2%80%94Python%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B%E5%92%8C%E5%BC%82%E6%AD%A5IO%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.html</loc>
+    <loc>http://tech.luzihang.net/scrapy-spalsh%E4%BD%BF%E7%94%A8UA%E5%92%8CIP%E4%BB%A3%E7%90%86.html</loc>
     
     <lastmod>2019-07-26T23:37:37.929Z</lastmod>
     
