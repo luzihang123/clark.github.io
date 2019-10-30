@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tech.luzihang.net/"/>
-  <updated>2019-08-21T09:19:13.404Z</updated>
+  <updated>2019-10-30T06:00:20.172Z</updated>
   <id>http://tech.luzihang.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>selenium 使用代理的方法汇总</title>
+    <link href="http://tech.luzihang.net/selenium-%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86%E7%9A%84%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB.html"/>
+    <id>http://tech.luzihang.net/selenium-使用代理的方法汇总.html</id>
+    <published>2019-10-30T05:59:06.000Z</published>
+    <updated>2019-10-30T06:00:20.172Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在docker中启动selenium gird使用扩展，并使用隧道代理，比如阿布云。how to set proxy with authentication in selenium chromedriver python&lt;/p&gt;
+&lt;p&gt;无头浏览器不支持chrome
+        
+      
+    
+    </summary>
+    
+      <category term="「原创分享」" scheme="http://tech.luzihang.net/categories/%E3%80%8C%E5%8E%9F%E5%88%9B%E5%88%86%E4%BA%AB%E3%80%8D/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>项目管理碎碎念：自动生成周报</title>
