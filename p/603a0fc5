@@ -104,18 +104,22 @@
 
 
 
-  <meta name="description" content="安装python3参考：https://www.yuzhi100.com/tutorial/centos/centos-anzhuang-python36CentOS7系统自带的Python版本是Python2.7，如需使用Python3.6，需要自行安装Python3.6。 (1)安装IUS软件源1234#安装EPEL依赖sudo yum install epel-release#安装IUS软件">
-<meta name="keywords" content="python,爬虫,AI,flask,django,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验">
+  <meta name="description" content="项目管理碎碎念：自动生成周报需求管理2-3个人的团队，需求如下：  需要明确团队的任务 将团队的任务wbs，分解成每个人的任务 每周对上级进行周报汇报  想得到的目标：  明确的看板任务，提升团队效率 写总结报告的时候，不用纠结回忆，节省时间和心力，也不会遗漏  主角Trello + Planyway Trello的任务看板适合Get things done，随时添加零碎项目，提升效率。  Pla">
+<meta name="keywords" content="项目管理">
 <meta property="og:type" content="article">
-<meta property="og:title" content="在Centos7安装python3、配置zsh、虚拟环境">
-<meta property="og:url" content="http://tech.luzihang.net/p/408fe7ca.html">
+<meta property="og:title" content="项目管理碎碎念：自动生成周报">
+<meta property="og:url" content="http://tech.luzihang.net/p/603a0fc5">
 <meta property="og:site_name" content="子航的博客">
-<meta property="og:description" content="安装python3参考：https://www.yuzhi100.com/tutorial/centos/centos-anzhuang-python36CentOS7系统自带的Python版本是Python2.7，如需使用Python3.6，需要自行安装Python3.6。 (1)安装IUS软件源1234#安装EPEL依赖sudo yum install epel-release#安装IUS软件">
+<meta property="og:description" content="项目管理碎碎念：自动生成周报需求管理2-3个人的团队，需求如下：  需要明确团队的任务 将团队的任务wbs，分解成每个人的任务 每周对上级进行周报汇报  想得到的目标：  明确的看板任务，提升团队效率 写总结报告的时候，不用纠结回忆，节省时间和心力，也不会遗漏  主角Trello + Planyway Trello的任务看板适合Get things done，随时添加零碎项目，提升效率。  Pla">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-12-24T10:08:16.404Z">
+<meta property="og:image" content="http://cdn.luzihang.net/15663787045089.jpg">
+<meta property="og:image" content="http://cdn.luzihang.net/15663779578975.jpg">
+<meta property="og:image" content="http://cdn.luzihang.net/15663776272492.jpg">
+<meta property="og:updated_time" content="2019-12-24T10:08:16.415Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="在Centos7安装python3、配置zsh、虚拟环境">
-<meta name="twitter:description" content="安装python3参考：https://www.yuzhi100.com/tutorial/centos/centos-anzhuang-python36CentOS7系统自带的Python版本是Python2.7，如需使用Python3.6，需要自行安装Python3.6。 (1)安装IUS软件源1234#安装EPEL依赖sudo yum install epel-release#安装IUS软件">
+<meta name="twitter:title" content="项目管理碎碎念：自动生成周报">
+<meta name="twitter:description" content="项目管理碎碎念：自动生成周报需求管理2-3个人的团队，需求如下：  需要明确团队的任务 将团队的任务wbs，分解成每个人的任务 每周对上级进行周报汇报  想得到的目标：  明确的看板任务，提升团队效率 写总结报告的时候，不用纠结回忆，节省时间和心力，也不会遗漏  主角Trello + Planyway Trello的任务看板适合Get things done，随时添加零碎项目，提升效率。  Pla">
+<meta name="twitter:image" content="http://cdn.luzihang.net/15663787045089.jpg">
 
 
 
@@ -125,7 +129,7 @@
 
   
   
-  <link rel="canonical" href="http://tech.luzihang.net/p/408fe7ca">
+  <link rel="canonical" href="http://tech.luzihang.net/p/603a0fc5">
 
 
 
@@ -135,7 +139,7 @@
   };
 </script>
 
-  <title>在Centos7安装python3、配置zsh、虚拟环境 | 子航的博客</title>
+  <title>项目管理碎碎念：自动生成周报 | 子航的博客</title>
   
 
 
@@ -412,7 +416,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tech.luzihang.net/p/408fe7ca.html">
+    <link itemprop="mainEntityOfPage" href="http://tech.luzihang.net/p/603a0fc5">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="子航 Clark">
@@ -429,7 +433,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">在Centos7安装python3、配置zsh、虚拟环境
+          <h1 class="post-title" itemprop="name headline">项目管理碎碎念：自动生成周报
 
               
             
@@ -455,7 +459,7 @@
                 
               
 
-              <time title="创建时间：2018-07-23 15:44:21" itemprop="dateCreated datePublished" datetime="2018-07-23T15:44:21+08:00">2018-07-23</time>
+              <time title="创建时间：2019-08-21 17:17:12" itemprop="dateCreated datePublished" datetime="2019-08-21T17:17:12+08:00">2019-08-21</time>
             
 
             
@@ -508,8 +512,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/p/408fe7ca.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/p/408fe7ca.html" itemprop="commentCount"></span>
+                <a href="/p/603a0fc5#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/p/603a0fc5" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -537,30 +541,36 @@
       
 
       
-        <h2 id="安装python3"><a href="#安装python3" class="headerlink" title="安装python3"></a>安装python3</h2><p>参考：<a href="https://www.yuzhi100.com/tutorial/centos/centos-anzhuang-python36" target="_blank" rel="noopener">https://www.yuzhi100.com/tutorial/centos/centos-anzhuang-python36</a><br>CentOS7系统自带的Python版本是Python2.7，如需使用Python3.6，需要自行安装Python3.6。</p>
-<h3 id="1-安装IUS软件源"><a href="#1-安装IUS软件源" class="headerlink" title="(1)安装IUS软件源"></a>(1)安装IUS软件源</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span>安装EPEL依赖</span><br><span class="line">sudo yum install epel-release</span><br><span class="line"><span class="meta">#</span>安装IUS软件源</span><br><span class="line">sudo yum install https://centos7.iuscommunity.org/ius-release.rpm</span><br></pre></td></tr></table></figure>
-<h3 id="2-安装Python3-6"><a href="#2-安装Python3-6" class="headerlink" title="(2)安装Python3.6"></a>(2)安装Python3.6</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install python36u</span><br></pre></td></tr></table></figure>
-<p>安装Python3完成后的shell命令为python3.6，为了使用方便，创建一个到python3的符号链接<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> rm /bin/python # 删除默认的python2</span><br><span class="line"><span class="meta">#</span> sudo ln -s /bin/python3.6 /bin/python</span><br><span class="line">sudo ln -s /bin/python3.6 /bin/python3</span><br></pre></td></tr></table></figure></p>
-<h3 id="3-安装pip3"><a href="#3-安装pip3" class="headerlink" title="(3)安装pip3"></a>(3)安装pip3</h3><p>安装完成python36u并没有安装pip，安/装pip<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install python36u-pip</span><br></pre></td></tr></table></figure></p>
-<p>安装pip完成后的shell命令为pip3.6，为了使用方便，创建一个到pip3的符号链接<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo ln -s /bin/pip3.6 /bin/pip</span><br><span class="line">sudo ln -s /bin/pip3.6 /bin/pip3</span><br></pre></td></tr></table></figure></p>
-<h3 id="4-遇到的问题"><a href="#4-遇到的问题" class="headerlink" title="(4) 遇到的问题"></a>(4) 遇到的问题</h3><p>1、使用yum命令报错File “/usr/bin/yum”, line 30 except KeyboardInterrupt, e:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">[root@10-41-140-1 ~]# yum install zsh</span><br><span class="line">  File &quot;/usr/bin/yum&quot;, line 30</span><br><span class="line">    except KeyboardInterrupt, e:</span><br><span class="line">                            ^</span><br><span class="line">SyntaxError: invalid syntax</span><br><span class="line">[root@10-41-140-1 ~]# rm /bin/python</span><br><span class="line">rm: remove symbolic link ‘/bin/python’? y</span><br><span class="line">[root@10-41-140-1 ~]# sudo ln -s /bin/python2.7 /bin/python</span><br></pre></td></tr></table></figure></p>
-<p>问题出现原因：<br>yum包管理是使用python2.x写的，将python2.x升级到python3.1.3以后，由于python版本语法兼容性导致问题出现<br>解决办法： python软连接到指向python2.7<br>参考：<a href="https://blog.csdn.net/zsl10/article/details/52315319" target="_blank" rel="noopener">https://blog.csdn.net/zsl10/article/details/52315319</a></p>
-<h2 id="安装zsh"><a href="#安装zsh" class="headerlink" title="安装zsh"></a>安装zsh</h2><p>参考:<a href="https://www.jianshu.com/p/556ff130fc65" target="_blank" rel="noopener">https://www.jianshu.com/p/556ff130fc65</a></p>
-<h3 id="1-安装zsh包"><a href="#1-安装zsh包" class="headerlink" title="(1)安装zsh包"></a>(1)安装zsh包</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install zsh</span><br></pre></td></tr></table></figure>
-<h3 id="2-切换默认shell为zsh"><a href="#2-切换默认shell为zsh" class="headerlink" title="(2)切换默认shell为zsh"></a>(2)切换默认shell为zsh</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chsh -s /bin/zsh</span><br></pre></td></tr></table></figure>
-<h3 id="3-重启终端，让修改的配置生效"><a href="#3-重启终端，让修改的配置生效" class="headerlink" title="(3)重启终端，让修改的配置生效"></a>(3)重启终端，让修改的配置生效</h3><h3 id="4-安装oh-my-zsh"><a href="#4-安装oh-my-zsh" class="headerlink" title="(4)安装oh-my-zsh"></a>(4)安装oh-my-zsh</h3><h4 id="4-1-安装git"><a href="#4-1-安装git" class="headerlink" title="4.1 安装git"></a>4.1 安装git</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install git</span><br></pre></td></tr></table></figure>
-<h4 id="4-2-通过curl安装"><a href="#4-2-通过curl安装" class="headerlink" title="4.2 通过curl安装"></a>4.2 通过curl安装</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh</span><br></pre></td></tr></table></figure>
-<h4 id="4-2-或者通过wget安装"><a href="#4-2-或者通过wget安装" class="headerlink" title="4.2 或者通过wget安装"></a>4.2 或者通过wget安装</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh</span><br></pre></td></tr></table></figure>
-<h4 id="4-3-修改oh-my-zsh主题"><a href="#4-3-修改oh-my-zsh主题" class="headerlink" title="4.3 修改oh-my-zsh主题"></a>4.3 修改oh-my-zsh主题</h4><p>查看oh my zsh主题<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls ~/.oh-my-zsh/themes</span><br></pre></td></tr></table></figure></p>
-<p>修改主题<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.zshrc</span><br></pre></td></tr></table></figure></p>
-<p>可以看到默认的主题是ZSH_THEME=”robbyrussell” 改成自己喜欢的即可.</p>
-<p>4.4 重启终端，主题生效</p>
-<h2 id="虚拟环境"><a href="#虚拟环境" class="headerlink" title="虚拟环境"></a>虚拟环境</h2><h3 id="1-安装virtualenv相关依赖"><a href="#1-安装virtualenv相关依赖" class="headerlink" title="(1) 安装virtualenv相关依赖"></a>(1) 安装virtualenv相关依赖</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo pip install virtualenv</span><br><span class="line">sudo pip install virtualenvwrapper</span><br></pre></td></tr></table></figure>
-<h3 id="2-修改-zshrc"><a href="#2-修改-zshrc" class="headerlink" title="(2)修改 .zshrc"></a>(2)修改 .zshrc</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ where is virtualenvwrapper.sh                                                                                                       </span><br><span class="line">is not found                                                                                                                             </span><br><span class="line">/usr/bin/virtualenvwrapper.sh</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">复制内容,进入.zshrc  </span><br><span class="line">export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3</span><br><span class="line">export WORKON_HOME=$HOME/.virtualenvs</span><br><span class="line">source /usr/bin/virtualenvwrapper.sh</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ vim .zshrc  </span><br><span class="line">➜  ~ source .zshrc                                                                                                                       </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/premkproject                                                                  </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/postmkproject                                                                 </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/initialize                                                                    </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/premkvirtualenv                                                               </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/postmkvirtualenv                                                              </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/prermvirtualenv                                                               </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/postrmvirtualenv                                                              </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/predeactivate                                                                 </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/postdeactivate                                                                </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/preactivate                                                                   </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/postactivate                                                                  </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/get_env_details                                                               </span><br><span class="line">➜  ~</span><br></pre></td></tr></table></figure>
-<h3 id="3-测试是否成功"><a href="#3-测试是否成功" class="headerlink" title="(3) 测试是否成功"></a>(3) 测试是否成功</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ mkvirtualenv test01 -p python3  # -p 参数指定 python 版本                                                                                                                        </span><br><span class="line">Using base prefix &apos;/usr&apos;                                                                                                                        </span><br><span class="line">  No LICENSE.txt / LICENSE found in source                                                                                                      </span><br><span class="line">New python executable in /root/.virtualenvs/test01/bin/python3.6                                                                                </span><br><span class="line">Also creating executable in /root/.virtualenvs/test01/bin/python                                                                                </span><br><span class="line">Installing setuptools, pip, wheel...                                                                                                            </span><br><span class="line">done.                                                                                                                                           </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/test01/bin/predeactivate                                                             </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/test01/bin/postdeactivate                                                            </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/test01/bin/preactivate                                                               </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/test01/bin/postactivate                                                              </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/test01/bin/get_env_details                                                           </span><br><span class="line">(test01) ➜  ~  </span><br><span class="line">(test01) ➜  ~ deactivate                                                                                                                        </span><br><span class="line">➜  ~ workon test01                                                                                                                              </span><br><span class="line">(test01) ➜  ~</span><br></pre></td></tr></table></figure>
-<h3 id="4-确定下虚拟环境内，python的路径，为在supervisor配置文件里使用"><a href="#4-确定下虚拟环境内，python的路径，为在supervisor配置文件里使用" class="headerlink" title="(4)确定下虚拟环境内，python的路径，为在supervisor配置文件里使用"></a>(4)确定下虚拟环境内，python的路径，为在supervisor配置文件里使用</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(test01) ➜  ~ where is python                                                                                                                   </span><br><span class="line">is not found                                                                                                                                    </span><br><span class="line">/root/.virtualenvs/test01/bin/python                                                                                                            </span><br><span class="line">/usr/bin/python                                                                                                                                 </span><br><span class="line">(test01) ➜  ~</span><br></pre></td></tr></table></figure>
+        <h1 id="项目管理碎碎念：自动生成周报"><a href="#项目管理碎碎念：自动生成周报" class="headerlink" title="项目管理碎碎念：自动生成周报"></a>项目管理碎碎念：自动生成周报</h1><h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>管理2-3个人的团队，需求如下：</p>
+<ul>
+<li>需要明确团队的任务</li>
+<li>将团队的任务wbs，分解成每个人的任务</li>
+<li>每周对上级进行周报汇报</li>
+</ul>
+<p>想得到的目标：</p>
+<ul>
+<li>明确的看板任务，提升团队效率</li>
+<li>写总结报告的时候，不用纠结回忆，节省时间和心力，也不会遗漏</li>
+</ul>
+<h2 id="主角"><a href="#主角" class="headerlink" title="主角"></a>主角</h2><h3 id="Trello-Planyway"><a href="#Trello-Planyway" class="headerlink" title="Trello + Planyway"></a>Trello + Planyway</h3><ul>
+<li><p>Trello的任务看板适合Get things done，随时添加零碎项目，提升效率。</p>
+</li>
+<li><p>Planyway的甘特图适合对整个工作阶段有个全局的认识<br><img src="http://cdn.luzihang.net/15663787045089.jpg" alt></p>
+</li>
+</ul>
+<h3 id="Planyway"><a href="#Planyway" class="headerlink" title="Planyway"></a>Planyway</h3><ul>
+<li>官网：<a href="https://planyway.com/" target="_blank" rel="noopener">https://planyway.com/</a></li>
+<li>Chrome extension 下载地址：<a href="https://chrome.google.com/webstore/detail/planyway-team-planner-for/kkgaechmpjgbojahkofamdjkaklgbdkc" target="_blank" rel="noopener">https://chrome.google.com/webstore/detail/planyway-team-planner-for/kkgaechmpjgbojahkofamdjkaklgbdkc</a></li>
+</ul>
+<h2 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h2><p>Planyway生成一周的甘特图看板，进行周报汇总或者参考，当然也可以直接打印<br><img src="http://cdn.luzihang.net/15663779578975.jpg" alt></p>
+<p>Trello钉钉提醒：<br><img src="http://cdn.luzihang.net/15663776272492.jpg" alt></p>
+<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><ul>
+<li>工具免费：个人使用者的最大需求，秒杀</li>
+<li>轻量、好学：比公司自建的jira、禅道 轻量，比omniplan好学</li>
+<li>提醒及时：Trello生态强大，结合钉钉、slack等工具，提醒及时</li>
+</ul>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>安利大家可以用用，把工作搞得整整齐齐</p>
+
       
     </div>
 
@@ -628,6 +638,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/项目管理/" rel="tag"># 项目管理</a>
+          
+        </div>
       
 
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -700,8 +716,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/p/ad3d805f.html" rel="next" title="生产环境CentOs7安装docker记实">
-                <i class="fa fa-chevron-left"></i> 生产环境CentOs7安装docker记实
+              <a href="/p/12b51cde" rel="next" title="把布隆过滤器用起来">
+                <i class="fa fa-chevron-left"></i> 把布隆过滤器用起来
               </a>
             
           </div>
@@ -710,8 +726,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/p/8961b837.html" rel="prev" title="在Centos7使用supervisor">
-                在Centos7使用supervisor <i class="fa fa-chevron-right"></i>
+              <a href="/p/9202ce96" rel="prev" title="selenium 使用代理的方法汇总">
+                selenium 使用代理的方法汇总 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -931,7 +947,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装python3"><span class="nav-number">1.</span> <span class="nav-text">安装python3</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-安装IUS软件源"><span class="nav-number">1.1.</span> <span class="nav-text">(1)安装IUS软件源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-安装Python3-6"><span class="nav-number">1.2.</span> <span class="nav-text">(2)安装Python3.6</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-安装pip3"><span class="nav-number">1.3.</span> <span class="nav-text">(3)安装pip3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-遇到的问题"><span class="nav-number">1.4.</span> <span class="nav-text">(4) 遇到的问题</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装zsh"><span class="nav-number">2.</span> <span class="nav-text">安装zsh</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-安装zsh包"><span class="nav-number">2.1.</span> <span class="nav-text">(1)安装zsh包</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-切换默认shell为zsh"><span class="nav-number">2.2.</span> <span class="nav-text">(2)切换默认shell为zsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-重启终端，让修改的配置生效"><span class="nav-number">2.3.</span> <span class="nav-text">(3)重启终端，让修改的配置生效</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-安装oh-my-zsh"><span class="nav-number">2.4.</span> <span class="nav-text">(4)安装oh-my-zsh</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#4-1-安装git"><span class="nav-number">2.4.1.</span> <span class="nav-text">4.1 安装git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-2-通过curl安装"><span class="nav-number">2.4.2.</span> <span class="nav-text">4.2 通过curl安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-2-或者通过wget安装"><span class="nav-number">2.4.3.</span> <span class="nav-text">4.2 或者通过wget安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-3-修改oh-my-zsh主题"><span class="nav-number">2.4.4.</span> <span class="nav-text">4.3 修改oh-my-zsh主题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#虚拟环境"><span class="nav-number">3.</span> <span class="nav-text">虚拟环境</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-安装virtualenv相关依赖"><span class="nav-number">3.1.</span> <span class="nav-text">(1) 安装virtualenv相关依赖</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-修改-zshrc"><span class="nav-number">3.2.</span> <span class="nav-text">(2)修改 .zshrc</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-测试是否成功"><span class="nav-number">3.3.</span> <span class="nav-text">(3) 测试是否成功</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-确定下虚拟环境内，python的路径，为在supervisor配置文件里使用"><span class="nav-number">3.4.</span> <span class="nav-text">(4)确定下虚拟环境内，python的路径，为在supervisor配置文件里使用</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#项目管理碎碎念：自动生成周报"><span class="nav-number">1.</span> <span class="nav-text">项目管理碎碎念：自动生成周报</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#需求"><span class="nav-number">1.1.</span> <span class="nav-text">需求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#主角"><span class="nav-number">1.2.</span> <span class="nav-text">主角</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Trello-Planyway"><span class="nav-number">1.2.1.</span> <span class="nav-text">Trello + Planyway</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Planyway"><span class="nav-number">1.2.2.</span> <span class="nav-text">Planyway</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#效果图"><span class="nav-number">1.3.</span> <span class="nav-text">效果图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#特点"><span class="nav-number">1.4.</span> <span class="nav-text">特点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结语"><span class="nav-number">1.5.</span> <span class="nav-text">结语</span></a></li></ol></li></ol></div>
             
 
           </div>
