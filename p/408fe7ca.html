@@ -104,18 +104,18 @@
 
 
 
-  <meta name="description" content="02Python中一切皆对象——Python高级编程和异步IO并发编程2.1 Python中一切皆是对象讲解动态语言和静态语言的区别Python的面向对象更彻底函数和类也是对象，属于Python的一等公民1、赋值给一个变量2、可以添加到集合对象中3、可以作为参数传递给函数4、可以当做函数的返回值2.2 type、object和class的关系2.3 Python中的常见内置类型2.4 本章小结">
+  <meta name="description" content="安装python3参考：https://www.yuzhi100.com/tutorial/centos/centos-anzhuang-python36CentOS7系统自带的Python版本是Python2.7，如需使用Python3.6，需要自行安装Python3.6。 (1)安装IUS软件源1234#安装EPEL依赖sudo yum install epel-release#安装IUS软件">
 <meta name="keywords" content="python,爬虫,AI,flask,django,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验">
 <meta property="og:type" content="article">
-<meta property="og:title" content="02Python中一切皆对象——Python高级编程和异步IO并发编程">
-<meta property="og:url" content="http://tech.luzihang.net/posts/c6651072">
+<meta property="og:title" content="在Centos7安装python3、配置zsh、虚拟环境">
+<meta property="og:url" content="http://tech.luzihang.net/p/408fe7ca.html">
 <meta property="og:site_name" content="子航的博客">
-<meta property="og:description" content="02Python中一切皆对象——Python高级编程和异步IO并发编程2.1 Python中一切皆是对象讲解动态语言和静态语言的区别Python的面向对象更彻底函数和类也是对象，属于Python的一等公民1、赋值给一个变量2、可以添加到集合对象中3、可以作为参数传递给函数4、可以当做函数的返回值2.2 type、object和class的关系2.3 Python中的常见内置类型2.4 本章小结">
+<meta property="og:description" content="安装python3参考：https://www.yuzhi100.com/tutorial/centos/centos-anzhuang-python36CentOS7系统自带的Python版本是Python2.7，如需使用Python3.6，需要自行安装Python3.6。 (1)安装IUS软件源1234#安装EPEL依赖sudo yum install epel-release#安装IUS软件">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-12-24T10:08:16.396Z">
+<meta property="og:updated_time" content="2019-12-24T10:08:16.404Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="02Python中一切皆对象——Python高级编程和异步IO并发编程">
-<meta name="twitter:description" content="02Python中一切皆对象——Python高级编程和异步IO并发编程2.1 Python中一切皆是对象讲解动态语言和静态语言的区别Python的面向对象更彻底函数和类也是对象，属于Python的一等公民1、赋值给一个变量2、可以添加到集合对象中3、可以作为参数传递给函数4、可以当做函数的返回值2.2 type、object和class的关系2.3 Python中的常见内置类型2.4 本章小结">
+<meta name="twitter:title" content="在Centos7安装python3、配置zsh、虚拟环境">
+<meta name="twitter:description" content="安装python3参考：https://www.yuzhi100.com/tutorial/centos/centos-anzhuang-python36CentOS7系统自带的Python版本是Python2.7，如需使用Python3.6，需要自行安装Python3.6。 (1)安装IUS软件源1234#安装EPEL依赖sudo yum install epel-release#安装IUS软件">
 
 
 
@@ -125,7 +125,7 @@
 
   
   
-  <link rel="canonical" href="http://tech.luzihang.net/posts/c6651072">
+  <link rel="canonical" href="http://tech.luzihang.net/p/408fe7ca">
 
 
 
@@ -135,7 +135,7 @@
   };
 </script>
 
-  <title>02Python中一切皆对象——Python高级编程和异步IO并发编程 | 子航的博客</title>
+  <title>在Centos7安装python3、配置zsh、虚拟环境 | 子航的博客</title>
   
 
 
@@ -412,7 +412,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://tech.luzihang.net/posts/c6651072">
+    <link itemprop="mainEntityOfPage" href="http://tech.luzihang.net/p/408fe7ca.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="子航 Clark">
@@ -429,7 +429,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">02Python中一切皆对象——Python高级编程和异步IO并发编程
+          <h1 class="post-title" itemprop="name headline">在Centos7安装python3、配置zsh、虚拟环境
 
               
             
@@ -455,7 +455,7 @@
                 
               
 
-              <time title="创建时间：2019-06-10 23:55:38" itemprop="dateCreated datePublished" datetime="2019-06-10T23:55:38+08:00">2019-06-10</time>
+              <time title="创建时间：2018-07-23 15:44:21" itemprop="dateCreated datePublished" datetime="2018-07-23T15:44:21+08:00">2018-07-23</time>
             
 
             
@@ -489,7 +489,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/「笔记」/" itemprop="url" rel="index"><span itemprop="name">「笔记」</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/「原创分享」/" itemprop="url" rel="index"><span itemprop="name">「原创分享」</span></a></span>
 
                 
                 
@@ -508,8 +508,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/posts/c6651072#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/posts/c6651072" itemprop="commentCount"></span>
+                <a href="/p/408fe7ca.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/p/408fe7ca.html" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -537,7 +537,30 @@
       
 
       
-        <h1 id="02Python中一切皆对象——Python高级编程和异步IO并发编程"><a href="#02Python中一切皆对象——Python高级编程和异步IO并发编程" class="headerlink" title="02Python中一切皆对象——Python高级编程和异步IO并发编程"></a>02Python中一切皆对象——Python高级编程和异步IO并发编程</h1><h2 id="2-1-Python中一切皆是对象"><a href="#2-1-Python中一切皆是对象" class="headerlink" title="2.1 Python中一切皆是对象"></a>2.1 Python中一切皆是对象</h2><h3 id="讲解动态语言和静态语言的区别"><a href="#讲解动态语言和静态语言的区别" class="headerlink" title="讲解动态语言和静态语言的区别"></a>讲解动态语言和静态语言的区别</h3><h4 id="Python的面向对象更彻底"><a href="#Python的面向对象更彻底" class="headerlink" title="Python的面向对象更彻底"></a>Python的面向对象更彻底</h4><h3 id="函数和类也是对象，属于Python的一等公民"><a href="#函数和类也是对象，属于Python的一等公民" class="headerlink" title="函数和类也是对象，属于Python的一等公民"></a>函数和类也是对象，属于Python的一等公民</h3><h4 id="1、赋值给一个变量"><a href="#1、赋值给一个变量" class="headerlink" title="1、赋值给一个变量"></a>1、赋值给一个变量</h4><h4 id="2、可以添加到集合对象中"><a href="#2、可以添加到集合对象中" class="headerlink" title="2、可以添加到集合对象中"></a>2、可以添加到集合对象中</h4><h4 id="3、可以作为参数传递给函数"><a href="#3、可以作为参数传递给函数" class="headerlink" title="3、可以作为参数传递给函数"></a>3、可以作为参数传递给函数</h4><h4 id="4、可以当做函数的返回值"><a href="#4、可以当做函数的返回值" class="headerlink" title="4、可以当做函数的返回值"></a>4、可以当做函数的返回值</h4><h2 id="2-2-type、object和class的关系"><a href="#2-2-type、object和class的关系" class="headerlink" title="2.2 type、object和class的关系"></a>2.2 type、object和class的关系</h2><h2 id="2-3-Python中的常见内置类型"><a href="#2-3-Python中的常见内置类型" class="headerlink" title="2.3 Python中的常见内置类型"></a>2.3 Python中的常见内置类型</h2><h2 id="2-4-本章小结"><a href="#2-4-本章小结" class="headerlink" title="2.4 本章小结"></a>2.4 本章小结</h2>
+        <h2 id="安装python3"><a href="#安装python3" class="headerlink" title="安装python3"></a>安装python3</h2><p>参考：<a href="https://www.yuzhi100.com/tutorial/centos/centos-anzhuang-python36" target="_blank" rel="noopener">https://www.yuzhi100.com/tutorial/centos/centos-anzhuang-python36</a><br>CentOS7系统自带的Python版本是Python2.7，如需使用Python3.6，需要自行安装Python3.6。</p>
+<h3 id="1-安装IUS软件源"><a href="#1-安装IUS软件源" class="headerlink" title="(1)安装IUS软件源"></a>(1)安装IUS软件源</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span>安装EPEL依赖</span><br><span class="line">sudo yum install epel-release</span><br><span class="line"><span class="meta">#</span>安装IUS软件源</span><br><span class="line">sudo yum install https://centos7.iuscommunity.org/ius-release.rpm</span><br></pre></td></tr></table></figure>
+<h3 id="2-安装Python3-6"><a href="#2-安装Python3-6" class="headerlink" title="(2)安装Python3.6"></a>(2)安装Python3.6</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install python36u</span><br></pre></td></tr></table></figure>
+<p>安装Python3完成后的shell命令为python3.6，为了使用方便，创建一个到python3的符号链接<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> rm /bin/python # 删除默认的python2</span><br><span class="line"><span class="meta">#</span> sudo ln -s /bin/python3.6 /bin/python</span><br><span class="line">sudo ln -s /bin/python3.6 /bin/python3</span><br></pre></td></tr></table></figure></p>
+<h3 id="3-安装pip3"><a href="#3-安装pip3" class="headerlink" title="(3)安装pip3"></a>(3)安装pip3</h3><p>安装完成python36u并没有安装pip，安/装pip<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install python36u-pip</span><br></pre></td></tr></table></figure></p>
+<p>安装pip完成后的shell命令为pip3.6，为了使用方便，创建一个到pip3的符号链接<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo ln -s /bin/pip3.6 /bin/pip</span><br><span class="line">sudo ln -s /bin/pip3.6 /bin/pip3</span><br></pre></td></tr></table></figure></p>
+<h3 id="4-遇到的问题"><a href="#4-遇到的问题" class="headerlink" title="(4) 遇到的问题"></a>(4) 遇到的问题</h3><p>1、使用yum命令报错File “/usr/bin/yum”, line 30 except KeyboardInterrupt, e:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">[root@10-41-140-1 ~]# yum install zsh</span><br><span class="line">  File &quot;/usr/bin/yum&quot;, line 30</span><br><span class="line">    except KeyboardInterrupt, e:</span><br><span class="line">                            ^</span><br><span class="line">SyntaxError: invalid syntax</span><br><span class="line">[root@10-41-140-1 ~]# rm /bin/python</span><br><span class="line">rm: remove symbolic link ‘/bin/python’? y</span><br><span class="line">[root@10-41-140-1 ~]# sudo ln -s /bin/python2.7 /bin/python</span><br></pre></td></tr></table></figure></p>
+<p>问题出现原因：<br>yum包管理是使用python2.x写的，将python2.x升级到python3.1.3以后，由于python版本语法兼容性导致问题出现<br>解决办法： python软连接到指向python2.7<br>参考：<a href="https://blog.csdn.net/zsl10/article/details/52315319" target="_blank" rel="noopener">https://blog.csdn.net/zsl10/article/details/52315319</a></p>
+<h2 id="安装zsh"><a href="#安装zsh" class="headerlink" title="安装zsh"></a>安装zsh</h2><p>参考:<a href="https://www.jianshu.com/p/556ff130fc65" target="_blank" rel="noopener">https://www.jianshu.com/p/556ff130fc65</a></p>
+<h3 id="1-安装zsh包"><a href="#1-安装zsh包" class="headerlink" title="(1)安装zsh包"></a>(1)安装zsh包</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install zsh</span><br></pre></td></tr></table></figure>
+<h3 id="2-切换默认shell为zsh"><a href="#2-切换默认shell为zsh" class="headerlink" title="(2)切换默认shell为zsh"></a>(2)切换默认shell为zsh</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chsh -s /bin/zsh</span><br></pre></td></tr></table></figure>
+<h3 id="3-重启终端，让修改的配置生效"><a href="#3-重启终端，让修改的配置生效" class="headerlink" title="(3)重启终端，让修改的配置生效"></a>(3)重启终端，让修改的配置生效</h3><h3 id="4-安装oh-my-zsh"><a href="#4-安装oh-my-zsh" class="headerlink" title="(4)安装oh-my-zsh"></a>(4)安装oh-my-zsh</h3><h4 id="4-1-安装git"><a href="#4-1-安装git" class="headerlink" title="4.1 安装git"></a>4.1 安装git</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install git</span><br></pre></td></tr></table></figure>
+<h4 id="4-2-通过curl安装"><a href="#4-2-通过curl安装" class="headerlink" title="4.2 通过curl安装"></a>4.2 通过curl安装</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh</span><br></pre></td></tr></table></figure>
+<h4 id="4-2-或者通过wget安装"><a href="#4-2-或者通过wget安装" class="headerlink" title="4.2 或者通过wget安装"></a>4.2 或者通过wget安装</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh</span><br></pre></td></tr></table></figure>
+<h4 id="4-3-修改oh-my-zsh主题"><a href="#4-3-修改oh-my-zsh主题" class="headerlink" title="4.3 修改oh-my-zsh主题"></a>4.3 修改oh-my-zsh主题</h4><p>查看oh my zsh主题<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls ~/.oh-my-zsh/themes</span><br></pre></td></tr></table></figure></p>
+<p>修改主题<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.zshrc</span><br></pre></td></tr></table></figure></p>
+<p>可以看到默认的主题是ZSH_THEME=”robbyrussell” 改成自己喜欢的即可.</p>
+<p>4.4 重启终端，主题生效</p>
+<h2 id="虚拟环境"><a href="#虚拟环境" class="headerlink" title="虚拟环境"></a>虚拟环境</h2><h3 id="1-安装virtualenv相关依赖"><a href="#1-安装virtualenv相关依赖" class="headerlink" title="(1) 安装virtualenv相关依赖"></a>(1) 安装virtualenv相关依赖</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo pip install virtualenv</span><br><span class="line">sudo pip install virtualenvwrapper</span><br></pre></td></tr></table></figure>
+<h3 id="2-修改-zshrc"><a href="#2-修改-zshrc" class="headerlink" title="(2)修改 .zshrc"></a>(2)修改 .zshrc</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ where is virtualenvwrapper.sh                                                                                                       </span><br><span class="line">is not found                                                                                                                             </span><br><span class="line">/usr/bin/virtualenvwrapper.sh</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">复制内容,进入.zshrc  </span><br><span class="line">export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3</span><br><span class="line">export WORKON_HOME=$HOME/.virtualenvs</span><br><span class="line">source /usr/bin/virtualenvwrapper.sh</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ vim .zshrc  </span><br><span class="line">➜  ~ source .zshrc                                                                                                                       </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/premkproject                                                                  </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/postmkproject                                                                 </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/initialize                                                                    </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/premkvirtualenv                                                               </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/postmkvirtualenv                                                              </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/prermvirtualenv                                                               </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/postrmvirtualenv                                                              </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/predeactivate                                                                 </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/postdeactivate                                                                </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/preactivate                                                                   </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/postactivate                                                                  </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/get_env_details                                                               </span><br><span class="line">➜  ~</span><br></pre></td></tr></table></figure>
+<h3 id="3-测试是否成功"><a href="#3-测试是否成功" class="headerlink" title="(3) 测试是否成功"></a>(3) 测试是否成功</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ mkvirtualenv test01 -p python3  # -p 参数指定 python 版本                                                                                                                        </span><br><span class="line">Using base prefix &apos;/usr&apos;                                                                                                                        </span><br><span class="line">  No LICENSE.txt / LICENSE found in source                                                                                                      </span><br><span class="line">New python executable in /root/.virtualenvs/test01/bin/python3.6                                                                                </span><br><span class="line">Also creating executable in /root/.virtualenvs/test01/bin/python                                                                                </span><br><span class="line">Installing setuptools, pip, wheel...                                                                                                            </span><br><span class="line">done.                                                                                                                                           </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/test01/bin/predeactivate                                                             </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/test01/bin/postdeactivate                                                            </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/test01/bin/preactivate                                                               </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/test01/bin/postactivate                                                              </span><br><span class="line">virtualenvwrapper.user_scripts creating /root/.virtualenvs/test01/bin/get_env_details                                                           </span><br><span class="line">(test01) ➜  ~  </span><br><span class="line">(test01) ➜  ~ deactivate                                                                                                                        </span><br><span class="line">➜  ~ workon test01                                                                                                                              </span><br><span class="line">(test01) ➜  ~</span><br></pre></td></tr></table></figure>
+<h3 id="4-确定下虚拟环境内，python的路径，为在supervisor配置文件里使用"><a href="#4-确定下虚拟环境内，python的路径，为在supervisor配置文件里使用" class="headerlink" title="(4)确定下虚拟环境内，python的路径，为在supervisor配置文件里使用"></a>(4)确定下虚拟环境内，python的路径，为在supervisor配置文件里使用</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(test01) ➜  ~ where is python                                                                                                                   </span><br><span class="line">is not found                                                                                                                                    </span><br><span class="line">/root/.virtualenvs/test01/bin/python                                                                                                            </span><br><span class="line">/usr/bin/python                                                                                                                                 </span><br><span class="line">(test01) ➜  ~</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -677,8 +700,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/posts/2ed8a5ab" rel="next" title="01课程介绍——Python高级编程和异步IO并发编程">
-                <i class="fa fa-chevron-left"></i> 01课程介绍——Python高级编程和异步IO并发编程
+              <a href="/p/ad3d805f.html" rel="next" title="生产环境CentOs7安装docker记实">
+                <i class="fa fa-chevron-left"></i> 生产环境CentOs7安装docker记实
               </a>
             
           </div>
@@ -687,8 +710,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/posts/12b51cde" rel="prev" title="把布隆过滤器用起来">
-                把布隆过滤器用起来 <i class="fa fa-chevron-right"></i>
+              <a href="/p/8961b837.html" rel="prev" title="在Centos7使用supervisor">
+                在Centos7使用supervisor <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -908,7 +931,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#02Python中一切皆对象——Python高级编程和异步IO并发编程"><span class="nav-number">1.</span> <span class="nav-text">02Python中一切皆对象——Python高级编程和异步IO并发编程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-Python中一切皆是对象"><span class="nav-number">1.1.</span> <span class="nav-text">2.1 Python中一切皆是对象</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#讲解动态语言和静态语言的区别"><span class="nav-number">1.1.1.</span> <span class="nav-text">讲解动态语言和静态语言的区别</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Python的面向对象更彻底"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">Python的面向对象更彻底</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#函数和类也是对象，属于Python的一等公民"><span class="nav-number">1.1.2.</span> <span class="nav-text">函数和类也是对象，属于Python的一等公民</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、赋值给一个变量"><span class="nav-number">1.1.2.1.</span> <span class="nav-text">1、赋值给一个变量</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、可以添加到集合对象中"><span class="nav-number">1.1.2.2.</span> <span class="nav-text">2、可以添加到集合对象中</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、可以作为参数传递给函数"><span class="nav-number">1.1.2.3.</span> <span class="nav-text">3、可以作为参数传递给函数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4、可以当做函数的返回值"><span class="nav-number">1.1.2.4.</span> <span class="nav-text">4、可以当做函数的返回值</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-type、object和class的关系"><span class="nav-number">1.2.</span> <span class="nav-text">2.2 type、object和class的关系</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-3-Python中的常见内置类型"><span class="nav-number">1.3.</span> <span class="nav-text">2.3 Python中的常见内置类型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-4-本章小结"><span class="nav-number">1.4.</span> <span class="nav-text">2.4 本章小结</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装python3"><span class="nav-number">1.</span> <span class="nav-text">安装python3</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-安装IUS软件源"><span class="nav-number">1.1.</span> <span class="nav-text">(1)安装IUS软件源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-安装Python3-6"><span class="nav-number">1.2.</span> <span class="nav-text">(2)安装Python3.6</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-安装pip3"><span class="nav-number">1.3.</span> <span class="nav-text">(3)安装pip3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-遇到的问题"><span class="nav-number">1.4.</span> <span class="nav-text">(4) 遇到的问题</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装zsh"><span class="nav-number">2.</span> <span class="nav-text">安装zsh</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-安装zsh包"><span class="nav-number">2.1.</span> <span class="nav-text">(1)安装zsh包</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-切换默认shell为zsh"><span class="nav-number">2.2.</span> <span class="nav-text">(2)切换默认shell为zsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-重启终端，让修改的配置生效"><span class="nav-number">2.3.</span> <span class="nav-text">(3)重启终端，让修改的配置生效</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-安装oh-my-zsh"><span class="nav-number">2.4.</span> <span class="nav-text">(4)安装oh-my-zsh</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#4-1-安装git"><span class="nav-number">2.4.1.</span> <span class="nav-text">4.1 安装git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-2-通过curl安装"><span class="nav-number">2.4.2.</span> <span class="nav-text">4.2 通过curl安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-2-或者通过wget安装"><span class="nav-number">2.4.3.</span> <span class="nav-text">4.2 或者通过wget安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-3-修改oh-my-zsh主题"><span class="nav-number">2.4.4.</span> <span class="nav-text">4.3 修改oh-my-zsh主题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#虚拟环境"><span class="nav-number">3.</span> <span class="nav-text">虚拟环境</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-安装virtualenv相关依赖"><span class="nav-number">3.1.</span> <span class="nav-text">(1) 安装virtualenv相关依赖</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-修改-zshrc"><span class="nav-number">3.2.</span> <span class="nav-text">(2)修改 .zshrc</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-测试是否成功"><span class="nav-number">3.3.</span> <span class="nav-text">(3) 测试是否成功</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-确定下虚拟环境内，python的路径，为在supervisor配置文件里使用"><span class="nav-number">3.4.</span> <span class="nav-text">(4)确定下虚拟环境内，python的路径，为在supervisor配置文件里使用</span></a></li></ol></li></ol></div>
             
 
           </div>
