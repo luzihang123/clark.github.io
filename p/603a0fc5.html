@@ -511,12 +511,11 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
             
-              
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/p/603a0fc5.html#SOHUCS" itemprop="discussionUrl">
-                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="/p/603a0fc5.html" itemprop="commentCount"></span>
+                <a href="/p/603a0fc5.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/p/603a0fc5.html" itemprop="commentCount"></span>
                 </a>
-              
+              </span>
             
           
 
@@ -529,7 +528,7 @@
 
           
 
-        </span></div>
+        </div>
       </header>
     
 
@@ -753,7 +752,9 @@
 
   
     <div class="comments" id="comments">
-      <div id="SOHUCS"></div>
+      
+        <div id="gitment-container"></div>
+      
     </div>
 
   
@@ -1099,25 +1100,41 @@
   
 
   
+
+
   
-  <script>
-  (function() {
-    var appid = 'cyuBrgE9W';
-    var conf = 'ae474b7fff009417ecbd26aeb43dacf7';
-    var width = window.innerWidth || document.documentElement.clientWidth;
-    if (width < 960) {
-      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>');
-    }
-    else {
-      var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})});
-    }
-  })();
-  </script>
-  <script src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
+    <!-- LOCAL: You can save these files to your site and update links -->
 
+  
+  <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitmint.browser.js"></script>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.css">
+<!-- END LOCAL -->
 
+<script>
+  function renderGitment() {
+    var gitment = new Gitmint({
+      id: window.location.pathname,
+      owner: 'luzihang123',
+      repo: 'luzihang123.github.io',
+      
+        lang: '' || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+      
+      oauth: {
+      
+      
+        client_secret: '011137496c37ca3faca265402cbdf6c306eaac47',
+      
+        client_id: '88a31c223d4771a60a86'
+      }
+    });
+    gitment.render('gitment-container');
+  }
 
+  
+    renderGitment();
+  
+</script>
 
   
 
