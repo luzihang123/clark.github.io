@@ -118,8 +118,6 @@
 <meta name="twitter:description" content="自我介绍我是子航，位于上海，主业Python开发者，业余产品和运营。生命不息，折腾不止。 博客分类规划「原创分享」：除去其他分类的原创分享文章，可能也会分享在微信公众号”优雅的python“上「笔记」：记录日常学习笔记「从数据到产品」：结合产品和技术，从开发的角度，哔哔一些「量化Py交易」：量化交易「链向未来」:区块链、数字货币「待分类」：没有想好归于哪一分类的文章 编程能力Ai、Fw、Fl、Br">
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="子航的博客" type="application/atom+xml">
 
@@ -480,6 +478,7 @@
 
   
     <div class="comments" id="comments">
+      <div id="SOHUCS"></div>
     </div>
 
   
@@ -639,10 +638,6 @@
                 Links
               </div>
               <ul class="links-of-blogroll-list">
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="http://luzihang.net" title="http://luzihang.net" rel="noopener" target="_blank">子航博客(老站)</a>
-                  </li>
                 
                   <li class="links-of-blogroll-item">
                     <a href="https://www.zhuozimu.com/" title="https://www.zhuozimu.com/" rel="noopener" target="_blank">卓子木</a>
@@ -830,33 +825,21 @@
 
   
   
+  <script>
+  (function() {
+    var appid = 'cyrNcTeGl';
+    var conf = 'b4968a25ceb17800c4be025b5dfc9931';
+    var width = window.innerWidth || document.documentElement.clientWidth;
+    if (width < 960) {
+      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>');
+    }
+    else {
+      var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})});
+    }
+  })();
+  </script>
+  <script src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
 
-<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
-
-
-
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-
-<script>
-  var GUEST = ['nick', 'mail', 'link'];
-  var guest = 'nick,mail,link';
-  guest = guest.split(',').filter(function(item) {
-    return GUEST.indexOf(item) > -1;
-  });
-  new Valine({
-    el: '#comments',
-    verify: false,
-    notify: false,
-    appId: 'nlS4qMp5lG9KCcIyQtO7QaQy-gzGzoHsz',
-    appKey: 'YORuMopjXO5YVSu7AgrSvoGM',
-    placeholder: 'ヾﾉ≧∀≦)o大佬留步，留下你精彩的一笔~',
-    avatar: 'mm',
-    meta: guest,
-    pageSize: '10' || 10,
-    visitor: false,
-    lang: '' || 'zh-cn'
-  });
-</script>
 
 
 
